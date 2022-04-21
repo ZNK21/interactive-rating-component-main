@@ -1,0 +1,45 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: black !important;
+}
+
+.box {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(37,45,55);
+    background: radial-gradient(circle at top , rgba(37,45,55,1) 11%, rgba(18,20,23,1) 31%);
+}
+
+.botones {
+    margin-top: 250px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: hsl(25, 97%, 53%) !important;
+    border-color: hsl(25, 97%, 53%) !important;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px !important;
+}
+
+.contenedor {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
